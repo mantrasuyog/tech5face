@@ -1,0 +1,71 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    compileSdk = libs.versions.compileSdkVersion.get().toInteger()
+    namespace 'ai.tech5.pheonix.capture'
+    defaultConfig {
+        applicationId "add your appid here"
+
+        minSdk libs.versions.minSdkVersion.get().toInteger()
+        targetSdk libs.versions.targetSdkVersion.get().toInteger()
+
+        versionCode 7
+        versionName "1.6"
+
+        ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lint {
+        abortOnError false
+    }
+
+
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
+
+}
+
+dependencies {
+
+    implementation libs.material
+
+    testImplementation libs.junit
+
+
+    // CameraX core library
+    implementation libs.androidx.camera.core
+    implementation libs.androidx.camera.camera2
+    implementation libs.androidx.camera.lifecycle
+    implementation libs.androidx.camera.view
+
+
+    implementation libs.glide
+    annotationProcessor libs.compiler
+
+
+    implementation project(path: ':Ncnn_CPP_20230816')
+    implementation project(path: ':OpenCV_CPP_460')
+    implementation(project(path: ':AirsnapFaceUI'))
+    implementation(project(path: ':AirsnapFaceCore'))
+}

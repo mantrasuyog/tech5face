@@ -1,0 +1,41 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/naidu/Work Spaces/T5 Workspace/AirsnapFaceAndroid - OnlineLicense/app/src/main/res/layout/activity_main.xml" value="0.22592592592592592" />
+        <entry key="..\:/naidu/Work Spaces/T5 Workspace/AirsnapFaceAndroid-Vishesh/airsnapface-android/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/naidu/Work Spaces/T5 Workspace/AirsnapFaceAndroid-Vishesh/airsnapface-android/app/src/main/res/layout/activity_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/naidu/Work Spaces/T5 Workspace/PheonixAndroid/app/src/main/res/drawable/ic_baseline_flip_camera_android_24.xml" value="0.1" />
+        <entry key="..\:/naidu/Work Spaces/T5 Workspace/PheonixAndroid/app/src/main/res/layout/activity_face_capture.xml" value="0.25416666666666665" />
+        <entry key="..\:/naidu/Work Spaces/T5 Workspace/PheonixAndroid/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/naidu/Work Spaces/T5 Workspace/PheonixAndroid/pfcm-ui/src/main/res/layout/activity_face_capture.xml" value="0.2223731884057971" />
+        <entry key="AirsnapFaceUI/src/main/res/layout/activity_face_capture.xml" value="0.3072916666666667" />
+        <entry key="app/src/main/res/drawable/ic_baseline_camera_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_switch_camera_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/settings_cog_outline.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_face_capture.xml" value="0.23854166666666668" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3077102661132813" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.253125" />
+        <entry key="app/src/main/res/layout/liveness_result_dialog_layout.xml" value="0.253125" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.253125" />
+        <entry key="pfcm-ui/src/main/res/drawable/ic_baseline_camera_24.xml" value="0.1" />
+        <entry key="pfcm-ui/src/main/res/layout/activity_face_capture.xml" value="0.253125" />
+        <entry key="pfcm_ui/src/main/res/drawable/ic_baseline_camera_24.xml" value="0.1" />
+        <entry key="pfcm_ui/src/main/res/drawable/ic_baseline_flip_camera_android_24.xml" value="0.1" />
+        <entry key="pfcm_ui/src/main/res/drawable/ic_baseline_switch_camera_24.xml" value="0.1" />
+        <entry key="pfcm_ui/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="pfcm_ui/src/main/res/layout/activity_face_capture.xml" value="0.253125" />
+        <entry key="pfcm_ui/src/main/res/layout/activity_main.xml" value="0.253125" />
+        <entry key="pfcm_ui/src/main/res/layout/liveness_result_dialog_layout.xml" value="0.253125" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

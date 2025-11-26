@@ -1,0 +1,37 @@
+v1.5.6
+      -NCNN updated to 20230816
+      -16KB page support added
+
+v1.5.4
+      - Added Hat, Head Phones, hand and arms detection
+
+v1.5.3
+      - Blur score fine tuned
+
+v1.5.2
+      - Separated AnyGlass and Sunglass and made them into two parameters
+      - Added an option in UI SDK to choose between sun galls or any glass
+      - Added an option to switch cameras in UI SDK
+      - Added an option to choose compression by percentage/target size
+
+v1.4.9
+      - UniqueId based licensing implemented
+
+v1.4.8
+      - The OpenCV and ncnn libraries have been moved from the SDK to the application level.
+      - Opencv lib changed from opencv_java4 to opencv_world.
+      - Preventing screen/video capture on Face Capture screen
+
+v1.4.2
+
+    - Introduced FaceBackDiff ICAO metric depicting the color difference between the face and the background
+    - Option to segment and change background of ISO cropped image to desired RGB color
+
+v1.4.1
+
+    - Improved sunglass detection algorithm
+    - Changed all MNN models to NCNN models | Removed MNN framework
+
+v1.4.0
+
+    - Baseline implementation

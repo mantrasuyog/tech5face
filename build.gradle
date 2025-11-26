@@ -1,0 +1,22 @@
+plugins {
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.android.library) apply false
+    alias(libs.plugins.sonar.qube) apply false
+}
+
+
+ext {
+
+    // ValidateTor Library Info
+    sdkVersion = '1.5.6'
+
+
+    tech5DependencyServerUserName = System.getenv('TECH5_DEPENDENCY_SERVER_USERNAME')
+    tech5DependencyServerPassword = System.getenv('TECH5_DEPENDENCY_SERVER_PASSWORD')
+
+
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+}

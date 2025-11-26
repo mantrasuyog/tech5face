@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="border_color_fail">#FF0000</color>
+    <color name="border_color_pass">#00FF00</color>
+
+    <color name="status_text_background_color">#ff0000</color>
+    <color name="status_text_color">#ffffff</color>
+
+    <color name="overlay_color">#ffffff</color>
+
+
+</resources>

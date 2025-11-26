@@ -1,0 +1,28 @@
+NOTE: 'Face_Rect' refers to the face bounding box given by the face detector
+NOTE: 'Face_Landmark' refers to the face landmarks given by the face landmark detector
+NOTE: 'Back_Segment' refers to the background segmentation mask of the image
+
+		FEATURES							DEPENDENCIES
+
+1		Blur								-
+2		Exposure							-
+3		Brightness							-
+3		SkinToneScore						Face_Rect
+4		HotspotScore						Face_Rect
+5		RedEyesScore						Face_Landmark
+6		MouthOpenScore						Face_Landmark
+7		LaughScore							MouthOpenScore, Face_Landmark
+8		UniformBackgroundScore				Face_Rect, Face_Landmark, Back_Segment
+9		UniformBackgroundColorScore			Face_Rect, Face_Landmark, Back_Segment
+10		UniformIlluminationScore			Face_Rect, Face_Landmark
+11		FaceBackDiffScore					Face_Rect, Face_Landmark, Back_Segment
+
+12		Mask Detection						-
+13		Glasses Detection					LeftEyeClose, RightEyeClose
+14		Brisque								Face_Rect
+15		EyeDist								Face_Landmark
+16		Yaw									Face_Rect, Face_Landmark
+17		Pitch								Face_Rect, Face_Landmark
+18		Roll								Face_Rect, Face_Landmark
+19		LeftEyeClose						Face_Landmark
+20		RightEyeClose						Face_Landmark

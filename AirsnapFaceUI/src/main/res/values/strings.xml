@@ -1,0 +1,30 @@
+<resources>
+
+
+    <string name="camera_close_message">Move face closer to camera</string>
+    <string name="camera_far_message">Move face far from camera</string>
+
+
+    <string name="camera_up_message">@string/hold_still_and_center</string>
+    <string name="camera_down_message">@string/hold_still_and_center</string>
+    <string name="face_not_in_centre_x">@string/hold_still_and_center</string>
+
+    <string name="open_eyes_message">Open your eyes and look straight</string>
+    <string name="multiple_faces_detected">Multiple faces detected</string>
+    <string name="detection_failed_message">Face Detection failed</string>
+    <string name="no_faces_detected_message">No Faces Detected</string>
+    <string name="look_straight_message">Look Straight</string>
+    <string name="mask_detected_message">Mask Detected</string>
+    <string name="sunglasses_detected_message">Sunglasses Detected</string>
+    <string name="anyglasses_detected_message">Glasses Detected</string>
+    <string name="eyes_closed_message">Eyes Closed/Covered</string>
+    <string name="hold_still_message">@string/hold_still_and_center</string>
+    <string name="spoof_detected_message">Spoof Detected</string>
+    <string name="ok">@string/hold_still_and_center</string>
+    <string name="please_wait">Please wait...</string>
+
+    <string name= "hold_still_and_center">Centre your face &amp; Hold Still</string>
+    <string name="flip_camera">flip camera</string>
+
+
+</resources>
